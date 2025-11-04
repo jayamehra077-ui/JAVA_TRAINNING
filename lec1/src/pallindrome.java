@@ -7,6 +7,13 @@ public class pallindrome {
         int a=sc.nextInt();
         System.out.println("you have entered:");
         System.out.println(a);
+        /*int i=0,result=0;
+        whlile(a!=0)
+        {
+           result=result*10;
+          // a[i]=a%10;
+           a=a/10;
+        }*/
 
 
     }
