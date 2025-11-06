@@ -19,5 +19,11 @@ public class string {
         System.out.println(str.substring(0,4));
         System.out.println("trim:");
         System.out.println(str.trim());
+        String str1=new String("JAYA");
+        String str2=new String("JAYA");
+        System.out.println("is str1==str2?");
+        System.out.println(str1==str2);
+        System.out.println("is str1=str2");
+        System.out.println(str1.equals(str2));
     }
 }
