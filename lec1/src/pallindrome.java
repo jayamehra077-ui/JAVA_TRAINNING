@@ -1,20 +1,18 @@
-import java.util.Scanner;
 public class pallindrome {
     public static void main(String[] args)
     {
-        System.out.println("enter any number:");
-        Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        System.out.println("you have entered:");
-        System.out.println(a);
-        /*int i=0,result=0;
-        whlile(a!=0)
+        String a="naman";
+        String b="";
+        for(int i=a.length()-1;i>=0;i--)
         {
-           result=result*10;
-          // a[i]=a%10;
-           a=a/10;
-        }*/
-
-
+            b=b+a.charAt(i);
+        }
+        if(a.equals(b))
+        {
+            System.out.println("string pallindrome haiiii");
+        }
+        else {
+            System.out.println("string pallindrome nahiii haiiii");
+        }
     }
 }
