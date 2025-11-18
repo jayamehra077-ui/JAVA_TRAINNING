@@ -1,17 +1,18 @@
 import java.util.Scanner;
-public class sum_of_elements {
+
+public class maxElement {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter no. of elements:");
         int n=sc.nextInt();
         int[] arr=new int[n];
-        int sum=0;
+        int max=arr[0];
         System.out.println("enter elements:");
         for(int i=0;i<n;i++)
         {
             arr[i]=sc.nextInt();
-           // sum=sum+arr[i];
+            // sum=sum+arr[i];
         }
         System.out.println("array:");
         for(int i=0;i<n;i++) {
@@ -20,9 +21,12 @@ public class sum_of_elements {
         //System.out.println("sum= "+sum);
         for(int i=0;i<n;i++)
         {
-            sum=sum+arr[i];
+            if(arr[i]>max) {
+                max=arr[i];
+            }
         }
-        System.out.println("sum= "+sum);
+        System.out.println("max= "+max);
     }
 
 }
+
