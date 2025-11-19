@@ -18,5 +18,21 @@ public class linearSearch {
         }
         System.out.println("enter element to be search:");
         int x=sc.nextInt();
+        boolean found=false;
+        for(int val:arr)
+        {
+            if(val==x)
+            {
+                found=true;
+                break;
+            }
+        }
+        if(found)
+        {
+            System.out.println(x+ "is present in the array");
+        }
+        else {
+            System.out.println(x+ "is not present in the array");
+        }
     }
 }
