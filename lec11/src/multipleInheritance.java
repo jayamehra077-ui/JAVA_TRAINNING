@@ -7,23 +7,35 @@ public class multipleInheritance {
     public static void main(String[] args)
     {
 
-        B b1=new B();
-        b1.sleep();
+        C c1=new C();
+        C c2=new C();
+        c2.data();
+        c1.sleep();
+        //c2.data();
+
     }
 }
 interface A
 {
    void sleep();
 
-
+default void data()
+{
+    System.out.println("hey everyone!!!!!!!!!!!");
+}
 
 }
-class B implements A
+
+interface B
 {
-  public void sleep()
-  {
-     System.out.println("sleeppp time!!!!!!!!!!!!!!");
-  }
+    void sleep();
+}
+class C implements A,B
+{
+    public void sleep()
+    {
+        System.out.println("Itsss  sleeeppp time!!!!!!!!!!!!!");
+    }
 }
 //class C extends A,B
 //{

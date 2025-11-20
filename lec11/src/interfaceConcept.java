@@ -2,7 +2,7 @@ public class interfaceConcept {
     public static void main(String[] args)
     {
 
-        B b1=new B();
+        B1 b1=new B1();
         b1.sleep();
     }
 }
