@@ -22,7 +22,7 @@ class B implements A
 {
   public void sleep()
   {
-     System.out.println("sleppp time!!!!!!!!!!!!!!");
+     System.out.println("sleeppp time!!!!!!!!!!!!!!");
   }
 }
 //class C extends A,B
