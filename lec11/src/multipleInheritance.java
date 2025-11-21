@@ -1,4 +1,4 @@
-//java m I ko support nhi karta qki child c confuse ho
+//java multiple Inheritance ko support nhi karta qki child c confuse ho
 // jata h ki kis class ke sleep function ko use kre
 //abstraction ko achieve karne ke 2 tarike h
 //1.abstract classes
