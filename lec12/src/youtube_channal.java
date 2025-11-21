@@ -3,7 +3,7 @@ public class youtube_channal {
     {
         youtube y1=new youtube();
         y1.get_subscriber();
-        y1.set_subscriber(300000);
+        y1.set_subscriber(300);
     }
 }
 class youtube
@@ -23,12 +23,12 @@ System.out.print("total subscriber="+total_subscriber);
         if(count<total_subscriber)
         {
             total_subscriber-=count;
-            System.out.println("-!!!!!!!-subscriber km ho gye h,count="+count);
+            System.out.println("-!!!!!!!-subscriber km ho gye h,now count="+total_subscriber);
         }
         else
         {
             total_subscriber+=count;
-            System.out.println("-!!!!!!!-number of subscriber increase  ho gye h\ncount="+count);
+            System.out.println("-!!!!!!!-number of subscriber increase  ho gye h\n now count="+total_subscriber);
         }
     }
 }
