@@ -4,7 +4,7 @@ public class Encapsulation {
     {
         atm s1=new atm();
         s1.getBalance();
-        s1.setBalance(200);
+        s1.setBalance(2000000000);
     }
 }
 class atm
@@ -26,6 +26,7 @@ class atm
             System.out.print("after withdraw amount="+totalBalance);
         }
        else
+        if(amount>0&&totalBalance<amount)
         {
             totalBalance+=amount;
             System.out.print("after deposit="+totalBalance);
