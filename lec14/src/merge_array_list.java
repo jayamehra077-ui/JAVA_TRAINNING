@@ -14,6 +14,9 @@ public class merge_array_list {
         System.out.println(list1);
         System.out.println("----SECOND ARRAY_LIST---");
         System.out.println(list2);
+        System.out.println("---MERGE ARRAY_LIST---");
+        list1.addAll(list2);
+        System.out.println(list1);
 
 
     }
