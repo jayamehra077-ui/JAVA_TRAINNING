@@ -21,6 +21,10 @@ public class sort_objects {
             this.name = name;
             this.roll_num = roll_num;
         }
+        public String toString()
+        {
+             return this.roll_num +" "+name;
+        }
 
         public int compareTo(Student s1) {
             return this.roll_num - s1.roll_num;
