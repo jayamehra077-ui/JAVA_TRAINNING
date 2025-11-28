@@ -8,5 +8,6 @@ public class set_method {
         set.add(13);
         set.add(50);
         System.out.println(set);
+
     }
 }
