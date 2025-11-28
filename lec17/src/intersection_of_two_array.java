@@ -15,7 +15,7 @@ public class intersection_of_two_array {
            // set1.add(x)  ;
             if(set1.contains(y));
             set2.add(y);
-            System.out.println(set2);
+            System.out.println(y);
         }
     }
 }
