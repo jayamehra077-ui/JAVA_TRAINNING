@@ -14,6 +14,7 @@ public class use_of_throws {
         System.out.println("riskyMethod start..");
         int result=10/0;
         System.out.println("result:"+result);
+        System.out.println("risky method end");
     }
 
 }
