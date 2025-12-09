@@ -3,6 +3,7 @@ public class exception_handling3 {
     public static void main(String[] args)
     {
         System.out.println("--heyy--");
+
         try {
             String str=null;
             System.out.println(str.length());
