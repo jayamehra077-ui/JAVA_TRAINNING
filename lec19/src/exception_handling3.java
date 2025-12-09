@@ -10,6 +10,9 @@ public class exception_handling3 {
            // throw new RuntimeException(e);
             System.out.println(e);
         }
+        finally {
+            System.out.println("--hamesha chalta h ---");
+        }
         System.out.println("--byee--");
     }
 }
