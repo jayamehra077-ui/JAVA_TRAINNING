@@ -11,7 +11,7 @@ public class sleep_method {
             // throw new RuntimeException(e);
             System.out.println(e);
         }
-        for(int i=0;i<5;i++)
+        for(int i=0;i<100;i++)
         {
             System.out.println(i+"main");
         }
@@ -23,11 +23,11 @@ class My_thread2 extends Thread
     {
         System.out.println(Thread.currentThread().getName());
         System.out.println("---hiiiii----");
-        for(int i=0;i<5;i++)
+        for(int i=0;i<100;i++)
         {
             System.out.println(i+"t1");
             try {
-                Thread.sleep(500);
+                Thread.sleep(100);
 
             } catch (Exception e) {
 //throw new RuntimeException(e);
