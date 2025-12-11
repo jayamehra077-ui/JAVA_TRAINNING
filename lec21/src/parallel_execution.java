@@ -29,7 +29,7 @@ class My_thread3 extends Thread
            // System.out.println(i+"t1");
             System.out.println("downloading file....."+(i*10)+"%");
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
 
             } catch (Exception e) {
 //throw new RuntimeException(e);
