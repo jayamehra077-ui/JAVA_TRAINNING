@@ -15,7 +15,7 @@ class my_thread implements Runnable
         for(int i=0;i<100;i++)
         {System.out.println(i);
             try {
-                Thread.sleep(100);
+                Thread.sleep(10000);
             } catch (Exception e) {
                 //throw new RuntimeException(e);
                 System.out.println(e);
