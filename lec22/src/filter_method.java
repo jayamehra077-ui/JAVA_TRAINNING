@@ -11,7 +11,7 @@ public class filter_method {
         list.add(23);
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
-        List<Integer> result=list.stream().filter(n->n>23).toList();
+        List<Integer> result=list.stream().filter(n->n>20).toList();
         System.out.print("-----elements of list greater less than 90-----\n"+""+result);
     }
 }
