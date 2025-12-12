@@ -1,4 +1,5 @@
 import java.util.*;
+//java.util.stream;
 public class reduce_method {
     public static void main(String[] args)
     {
@@ -9,7 +10,7 @@ public class reduce_method {
         list.add(23);
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
-        List<Integer> result=list.stream().filter(n->n<90).toList();
-        System.out.print("-----elements of list greater less than 90-----\n"+""+result);
+       int data= list.stream().reduce(0,(a,b)->a+b);
+        System.out.print("-----sum of elements-----\n"+""+data);
     }
 }
