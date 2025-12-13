@@ -12,7 +12,7 @@ public class limit_method {
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
         List<Integer> limit=list.stream().limit(3).toList();
-        System.out.print("----elements of list after limiting 2 elements-----\n"+""+limit);
+        System.out.print("----elements of list after limiting 3 elements-----\n"+""+limit);
     }
 }
 
