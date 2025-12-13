@@ -12,7 +12,7 @@ public class ascending_sort {
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
         List<Integer> sort=list.stream().sorted((a,b)->a-b).toList();
-        System.out.print("----ascending order-----\n"+""+sort);
+        System.out.print("----list in ascending order-----\n"+""+sort);
     }
 }
 
