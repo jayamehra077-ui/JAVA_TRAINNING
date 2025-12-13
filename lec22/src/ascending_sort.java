@@ -9,7 +9,7 @@ public class ascending_sort {
         list.add(90);
         list.add(27);
         list.add(23);
-        System.out.print("-----list-----\n"+""+list);
+        System.out.print("-----liste elements are-----\n"+""+list);
         System.out.println("\n");
         List<Integer> sort=list.stream().sorted((a,b)->a-b).toList();
         System.out.print("----list in ascending order-----\n"+""+sort);
