@@ -9,7 +9,7 @@ public class descending_sort {
         list.add(90);
         list.add(27);
         list.add(23);
-        System.out.print("-----list-----\n"+""+list);
+        System.out.print("-----list elements are-----\n"+""+list);
         System.out.println("\n");
         List<Integer> sort=list.stream().sorted((a, b)->b-a).toList();
         System.out.print("----list in descending order-----\n"+""+sort);
