@@ -12,7 +12,7 @@ public class skip_method {
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
         List<Integer> skip=list.stream().skip(3).toList();
-        System.out.print("----elements of list after skiping 2 elements-----\n"+""+skip);
+        System.out.print("----elements of list after skiping 3 elements-----\n"+""+skip);
     }
 }
 
