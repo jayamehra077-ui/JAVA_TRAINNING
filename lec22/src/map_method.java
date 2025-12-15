@@ -12,7 +12,7 @@ public class map_method {
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
         List<Integer> map=list.stream().map(n->n*100).toList();
-        System.out.print("----elements of list after multiply by 100-----\n"+""+map);
+        System.out.print("----elements of list after multiply by 200-----\n"+""+map);
     }
 }
 
