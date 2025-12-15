@@ -14,8 +14,8 @@ public class limit_method {
         list.add(63);
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
-        List<Integer> limit=list.stream().limit(5).toList();
-        System.out.print("----elements of list after limiting 5 elements-----\n"+""+limit);
+        List<Integer> limit=list.stream().limit(4).toList();
+        System.out.print("----elements of list after limiting 4 elements-----\n"+""+limit);
     }
 }
 
