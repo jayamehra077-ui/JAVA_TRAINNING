@@ -11,8 +11,8 @@ public class skip_method {
         list.add(23);
         System.out.print("-----list-----\n"+""+list);
         System.out.println("\n");
-        List<Integer> skip=list.stream().skip(4).toList();
-        System.out.print("----elements of list after skiping 2 elements-----\n"+""+skip);
+        List<Integer> skip=list.stream().skip(1).toList();
+        System.out.print("----elements of list after skiping 1 elements-----\n"+""+skip);
     }
 }
 
