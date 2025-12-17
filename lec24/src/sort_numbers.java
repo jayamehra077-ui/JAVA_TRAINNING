@@ -8,7 +8,7 @@ public class sort_numbers {
         solution sol = new solution();
         sol.sort_color(colors);
 
-        System.out.println("Sorted array:   " + java.util.Arrays.toString(colors));
+        System.out.println("Sorted array is as follows:   " + java.util.Arrays.toString(colors));
     }
 
 }
