@@ -3,7 +3,7 @@ public class sort_numbers {
     {
        // sort_color();
         int[] colors = {2, 0, 2, 1, 1, 0};
-        System.out.println("Original array: " + java.util.Arrays.toString(colors));
+        System.out.println("Original array is as follows: " + java.util.Arrays.toString(colors));
 
         solution sol = new solution();
         sol.sort_color(colors);
