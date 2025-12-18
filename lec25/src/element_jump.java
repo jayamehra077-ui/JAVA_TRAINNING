@@ -1,7 +1,7 @@
 public class element_jump {
     public static void main(String[] args)
     {
-        int[] colors = {1, 0, 2, 0, 2, 1};
+        int[] colors = {1, 0, 2, 2, 1};
         solution s1= new solution();
        boolean x= s1.can_jump(colors);
        System.out.println(x);
