@@ -7,7 +7,7 @@ public class ascending_sort {
         ArrayList<Integer> list=new ArrayList<>();
         list.add(20);
         list.add(9);
-        list.add(27);
+        list.add(7);
         list.add(93);
         list.add(2);
         list.add(21);
