@@ -11,7 +11,7 @@ public class append_in_file {
                 File file=new File("index.html");
                 if(file.createNewFile())
                 {
-                    System.out.println("---done!! file created---");
+                    System.out.println("---done!!\n file created---");
                 }
                 else {
                     System.out.println("---sorry!! file of this name is already created---");
