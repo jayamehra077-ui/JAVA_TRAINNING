@@ -14,7 +14,7 @@ public class parallel_execution {
             System.out.println("timer" + " " + i);
         }
         try {
-            Thread.sleep(400);
+            Thread.sleep(100);
 
         } catch (Exception e) {
 
