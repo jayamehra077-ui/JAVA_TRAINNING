@@ -29,7 +29,7 @@ public class parallel_execution {
                 // System.out.println(i+"t1");
                 System.out.println("downloading file....." + (i * 20) + "%");
                 try {
-                    Thread.sleep(5000);
+                    Thread.sleep(500);
 
                 } catch (Exception e) {
 //throw new RuntimeException(e);
