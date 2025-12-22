@@ -24,7 +24,7 @@ class solution
                 height = mid;
             }
         }
-System.out.println(low);
+System.out.println("peak index of mountain array:"+low);
     return low;
 }
 
