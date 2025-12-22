@@ -27,7 +27,7 @@ public class parallel_execution {
             System.out.println("---hiiiii----");
             for (int i = 0; i < 10; i++) {
                 // System.out.println(i+"t1");
-                System.out.println("downloading file....." + (i * 10) + "%");
+                System.out.println("downloading file....." + (i * 20) + "%");
                 try {
                     Thread.sleep(1000);
 
