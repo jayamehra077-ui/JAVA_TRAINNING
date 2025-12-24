@@ -3,7 +3,7 @@
     {
         for(int i=0;i<=10;i++)
         {
-            System.out.println("neha");
+            System.out.println(i);
         }
     }
 }*/
