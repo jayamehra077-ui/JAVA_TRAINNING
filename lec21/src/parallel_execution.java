@@ -24,7 +24,7 @@ public class parallel_execution {
    static class My_thread3 extends Thread {
         public void run() {
             System.out.println(Thread.currentThread().getName());
-            System.out.println("---hiiiii----");
+            System.out.println("---hiii----");
             for (int i = 0; i < 10; i++) {
                 // System.out.println(i+"t1");
                 System.out.println("downloading file....." + (i * 20) + "%");
