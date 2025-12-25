@@ -6,11 +6,11 @@ public class ascending_sort {
     {
         ArrayList<Integer> list=new ArrayList<>();
         list.add(0);
-        list.add(9);
+        list.add(90);
         list.add(7);
         list.add(93);
         list.add(2);
-        list.add(1);
+        list.add(10);
         list.add(3);
         System.out.print("-----liste elements are: -----\n"+""+list);
         System.out.println("\n");
