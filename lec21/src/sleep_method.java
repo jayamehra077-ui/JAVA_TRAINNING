@@ -22,7 +22,7 @@ class My_thread2 extends Thread
     public void  run()
     {
         System.out.println(Thread.currentThread().getName());
-        System.out.println("---hellooo----");
+        System.out.println("---hello----");
         for(int i=0;i<1000;i++)
         {
             System.out.println(i+"t1");
