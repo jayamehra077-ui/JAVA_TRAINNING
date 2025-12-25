@@ -5,7 +5,7 @@ public class ascending_sort {
     public static void main(String[] args)
     {
         ArrayList<Integer> list=new ArrayList<>();
-        list.add(0);
+        list.add(30);
         list.add(90);
         list.add(71);
         list.add(93);
