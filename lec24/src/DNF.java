@@ -1,7 +1,7 @@
 public class DNF {
     public static void main(String[] args)
     {
-        int arr[]={1,2,1,0,0,2,1};
+        int arr[]={1,2,1,0,0,2,1,1};
         int low=0;
         int mid=0;
         int h=arr.length-1;
