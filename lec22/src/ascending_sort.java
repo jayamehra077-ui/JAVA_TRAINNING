@@ -11,7 +11,7 @@ public class ascending_sort {
         list.add(9);
         list.add(2);
         list.add(1);
-        list.add(3);
+
         System.out.print("-----liste elements are: -----\n"+""+list);
         System.out.println("\n");
         List<Integer> sort=list.stream().sorted((a,b)->a-b).toList();
