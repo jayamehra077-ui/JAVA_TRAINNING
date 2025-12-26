@@ -10,7 +10,7 @@ public class ascending_sort {
         list.add(7);
         list.add(9);
         list.add(2);
-        list.add(1);
+
 
         System.out.print("-----liste elements are: -----\n"+""+list);
         System.out.println("\n");
