@@ -2,7 +2,7 @@ public class sort_numbers {
     public static void main(String[] args)
     {
        // sort_color();
-        int[] colors = {1, 0, 2, 0, 2, 1,0};
+        int[] colors = {1, 0, 2, 0, 2, 1};
         System.out.println("Original array is as follows: " + java.util.Arrays.toString(colors));
 
         solution sol = new solution();
