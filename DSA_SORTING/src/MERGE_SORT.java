@@ -1,0 +1,22 @@
+public class MERGE_SORT {
+    public static void main(String[] args)
+    {
+        int[] arr={2,4,6,8,9,1};
+        merge_sort_array_list m1=new merge_sort_array_list();
+        m1.sort(arr,0, arr.length);
+    }
+}
+class merge_sort_array_list
+{
+    static void sort(int[] arr,int l,int r)
+    {
+        if(l>=r)
+        {
+            return;
+        }
+        int mid=(l+r)/2;
+        sort(arr,l,mid);
+        sort(arr,mid+1,r);
+
+    }
+}

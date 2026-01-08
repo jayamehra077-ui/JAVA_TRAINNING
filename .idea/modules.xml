@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSA_SORTING/DSA_SORTING.iml" filepath="$PROJECT_DIR$/DSA_SORTING/DSA_SORTING.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SORTING/SORTING.iml" filepath="$PROJECT_DIR$/SORTING/SORTING.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec7/constructor/constructor.iml" filepath="$PROJECT_DIR$/lec7/constructor/constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec1/lec1.iml" filepath="$PROJECT_DIR$/lec1/lec1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lec10/lec10.iml" filepath="$PROJECT_DIR$/lec10/lec10.iml" />
