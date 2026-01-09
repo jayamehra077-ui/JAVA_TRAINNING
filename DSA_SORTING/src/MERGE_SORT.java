@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class MERGE_SORT {
     public static void main(String[] args)
     {
@@ -18,5 +20,24 @@ class merge_sort_array_list
         sort(arr,l,mid);
         sort(arr,mid+1,r);
 
+    }
+    static void merge(int[] arr,int l,int mid, int r)
+    {
+        ArrayList<Integer> temp=new ArrayList<>();
+        int i=l;
+        int j=mid+1;
+        while(i<=mid&&j<=r)
+        {
+            if(arr[i]<=arr[j])
+            {
+                temp.add(arr[i]);
+                i++;
+
+            }
+            else {
+                temp.add(arr[j]);
+                j++;
+            }
+        }
     }
 }
