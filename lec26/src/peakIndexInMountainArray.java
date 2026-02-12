@@ -1,6 +1,6 @@
 public class peakIndexInMountainArray {
     public static void main(String[] args) {
-        int[]  a={1,0,4,7,0,1,2,3,4,5,6,7,8,9};
+        int[]  a={1,0,4,7,0,1,2,3,4,5,6,7,8,9,10};
         solution s1=new solution();
         s1.peak_index(a);
 
