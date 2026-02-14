@@ -11,7 +11,7 @@ class instagram
 {
     String user_name="nehu_.x._04";
     int followers=2000;
-    int following=1000;
+    int following=100;
     int post=100;
     public void get_instagram()
     {
