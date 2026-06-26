@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class MERGE_SORT {
     public static void main(String[] args)
     {
-        int[] arr={2,4,6,8,9,1,2,3,4,5,6};
+        int[] arr={2,4,6,8,9,1,2,3,4,5};
         merge_sort_array_list m1=new merge_sort_array_list();
         m1.sort(arr,0, arr.length);
     }
